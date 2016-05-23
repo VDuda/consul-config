@@ -8,6 +8,5 @@ keys = [
   "/containers",
   "self/container/name",
   "/self/container/primary_ip",
-  "/services/consul/metadata/enc.key",
   "/self/container/service_index",
 ]
