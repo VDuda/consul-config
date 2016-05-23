@@ -4,9 +4,6 @@
     "bootstrap": false,{{end}}
     "server": true,
     "datacenter": "dc1",
-    "advertise_addr": "{{getv "/self/container/primary_ip"}}",
-    "bind_addr": "{{getv "/self/container/primary_ip"}}",
-    "client_addr": "{{getv "/self/container/primary_ip"}}",
     "data_dir": "/var/consul",
     "verify_incoming": false,
     "verify_outgoing": false,
